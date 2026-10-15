@@ -1,0 +1,22 @@
+{
+  "name": "autoclaw-proxy",
+  "version": "1.0.0",
+  "description": "Expose AutoClaw desktop client's GLM quota as a local OpenAI-compatible API endpoint (zero-dependency Node reverse proxy).",
+  "main": "proxy.cjs",
+  "scripts": {
+    "start": "node proxy.cjs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "openai-compatible",
+    "reverse-proxy",
+    "glm",
+    "autoclaw",
+    "zhipuai",
+    "llm"
+  ],
+  "license": "MIT",
+  "private": true
+}

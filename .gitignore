@@ -1,0 +1,11 @@
+# 敏感文件：凭据 / 日志 / 调试快照（含会话内容），绝不提交
+credentials.json
+proxy.log
+debug-last-fail.json
+
+# Node
+node_modules/
+
+# 系统
+Thumbs.db
+.DS_Store
